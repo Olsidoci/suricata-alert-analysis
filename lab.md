@@ -16,3 +16,8 @@ Analyze network traffic using Suricata IDS, write custom rules, and interpret al
 ```bash
 sudo suricata -r sample.pcap -S custom.rules -k none
 
+/rules/custom.rules
+/pcap/sample.pcap
+/logs/fast.log
+/logs/eve.json
+/docs/lab.md
